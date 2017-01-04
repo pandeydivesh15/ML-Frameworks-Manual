@@ -15,12 +15,12 @@
 
 
 ####Examples
->>> a = np.array([[1,2,3], [4,5,6]])
->>> np.reshape(a, 6)
-array([1, 2, 3, 4, 5, 6])
->>> np.reshape(a, 6, order='F')
-array([1, 4, 2, 5, 3, 6])
->>> np.reshape(a, (3,-1))       # the unspecified value is inferred to be 2
-array([[1, 2],
-       [3, 4],
-       [5, 6]])
+		>>> a = np.array([[1,2,3], [4,5,6]])
+		>>> np.reshape(a, 6)
+		array([1, 2, 3, 4, 5, 6])
+		>>> np.reshape(a, 6, order='F')
+		array([1, 4, 2, 5, 3, 6])
+		>>> np.reshape(a, (3,-1))       # the unspecified value is inferred to be 2
+		array([[1, 2],
+		       [3, 4],
+		       [5, 6]])

@@ -16,19 +16,20 @@
 
 ####Examples
 
->>> a = np.arange(6).reshape(2,3)
->>> a
-array([[0, 1, 2],
-       [3, 4, 5]])
->>> np.argmax(a)
-5
->>> np.argmax(a, axis=0)
-array([1, 1, 1])
->>> np.argmax(a, axis=1)
-array([2, 2])
->>> b = np.arange(6)
->>> b[1] = 5
->>> b
-array([0, 5, 2, 3, 4, 5])
->>> np.argmax(b) # Only the first occurrence is returned.
-1
+		>>> a = np.arange(6).reshape(2,3)
+
+		>>> a
+		array([[0, 1, 2],
+		       [3, 4, 5]])
+		>>> np.argmax(a)
+		5
+		>>> np.argmax(a, axis=0)
+		array([1, 1, 1])
+		>>> np.argmax(a, axis=1)
+		array([2, 2])
+		>>> b = np.arange(6)
+		>>> b[1] = 5
+		>>> b
+		array([0, 5, 2, 3, 4, 5])
+		>>> np.argmax(b) # Only the first occurrence is returned.
+		1
