@@ -1,4 +1,4 @@
-##numpy.reshape(a, newshape, order='C')[source]
+##numpy.reshape(a, newshape, order='C')[source](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html#numpy.reshape)
 
 ###Gives a new shape to an array without changing its data.
 

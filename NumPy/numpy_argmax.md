@@ -1,4 +1,4 @@
-##numpy.argmax(a, axis=None, out=None)[source]
+##numpy.argmax(a, axis=None, out=None)[source](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argmax.html#numpy.argmax)
 
 ###Returns the indices of the maximum values along an axis.
 
